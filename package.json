@@ -1,0 +1,18 @@
+{
+  "name": "wooga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "alltests-headless": "npx cypress run",
+    "alltests-headed": "npx cypress run --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mochawesome": "^7.1.0"
+  }
+}
