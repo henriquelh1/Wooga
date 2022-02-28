@@ -22,9 +22,9 @@ pipeline{
                 
                  
                         git url: "https://github.com/henriquelh1/Wooga.git"
-                        sh:"npm install"
-                        sh:"npm update"
-                        sh:"npm run alltests-headless"
+                        sh:'npm install'
+                        sh:'npm update'
+                        sh:'npm run alltests-headless'
                     
             }
         }
