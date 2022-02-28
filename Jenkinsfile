@@ -21,9 +21,9 @@ pipeline{
             steps{
                 script{
                     git url: "https://github.com/henriquelh1/Wooga.git"
-                    bat:"npm install"
-                    bat:"npm update"
-                    bat:"npm run alltests-headless"
+                    sh:"npm install"
+                    sh:"npm update"
+                    sh:"npm run alltests-headless"
                 }
             }
         }
