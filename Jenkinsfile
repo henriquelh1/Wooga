@@ -19,13 +19,13 @@ pipeline{
         stage("API Testing"){
 
             steps{
-                git url: "https://github.com/henriquelh1/Wooga.git"
-                    script{
-
+                
+                 
+                        git url: "https://github.com/henriquelh1/Wooga.git"
                         sh:"npm install"
                         sh:"npm update"
                         sh:"npm run alltests-headless"
-                    }
+                    
             }
         }
 
