@@ -36,15 +36,5 @@ pipeline{
         }
     }
 
-    post {
-
-     publishHTML([allowMissing: false, 
-                alwaysLinkToLastBuild: true, 
-                keepAll: false, 
-                reportDir: 'cypress/results', 
-                reportFiles: 'mochawesome.html', 
-                reportName: 'HTML Report', 
-                reportTitles: ''])
-    }
 
 }
