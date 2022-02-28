@@ -49,7 +49,7 @@ describe("Api Testing x", () => {
         }).then(resp => {
             expect(resp.status).to.eq(200)
             cy.log(resp.name)
-            expect(resp.body.name).to.eq("Pertsaw")
+            expect(resp.body.name).to.eq("Pertsaaw")
            
         })
     })
